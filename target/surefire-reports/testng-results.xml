@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-07T19:27:00 CAST" name="All Test Suite" finished-at="2022-11-07T19:27:42 CAST" duration-ms="41259">
+    <groups>
+    </groups>
+    <test started-at="2022-11-07T19:27:00 CAST" name="C:/Users/Dima/Desktop/ToolsQaProject" finished-at="2022-11-07T19:27:42 CAST" duration-ms="41259">
+      <class name="TestCases.TC_0002_Checkbox">
+        <test-method signature="CheckBoxTest()[pri:0, instance:TestCases.TC_0002_Checkbox@6bca7e0d]" started-at="2022-11-07T19:27:29 CAST" name="CheckBoxTest" finished-at="2022-11-07T19:27:42 CAST" duration-ms="12859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBoxTest -->
+      </class> <!-- TestCases.TC_0002_Checkbox -->
+      <class name="TestCases.TC_0001_TextBox">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.TC_0001_TextBox@7f132176]" started-at="2022-11-07T19:27:00 CAST" name="setUp" finished-at="2022-11-07T19:27:00 CAST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TextBoxTest()[pri:0, instance:TestCases.TC_0001_TextBox@7f132176]" started-at="2022-11-07T19:27:01 CAST" name="TextBoxTest" finished-at="2022-11-07T19:27:29 CAST" duration-ms="28331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextBoxTest -->
+      </class> <!-- TestCases.TC_0001_TextBox -->
+    </test> <!-- C:/Users/Dima/Desktop/ToolsQaProject -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

@@ -2,6 +2,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Dima/Desktop/ToolsQaProject">
-        <classes/>
+        <classes>
+            <class name="TestCases.TC_0001_TextBox">
+                <methods>
+                    <include name="TextBoxTest"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC_0002_Checkbox">
+                <methods>
+                    <include name="CheckBoxTest"/>
+                </methods>
+            </class>
+        </classes>
     </test>
 </suite>
