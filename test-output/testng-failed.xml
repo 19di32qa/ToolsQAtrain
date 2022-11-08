@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/Dima/Desktop/ToolsQaProject(failed)">
+    <classes>
+      <class name="TestCases.TC_0001_TextBox">
+        <methods>
+          <include name="TextBoxTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCases.TC_0001_TextBox -->
+    </classes>
+  </test> <!-- C:/Users/Dima/Desktop/ToolsQaProject(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

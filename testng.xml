@@ -13,6 +13,23 @@
                     <include name="CheckBoxTest"/>
                 </methods>
             </class>
+            <class name="TestCases.TC_0003_RadioButtons">
+                <methods>
+                    <include name="radioButtonsTest"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC_0004_WebTable">
+                <methods>
+                    <include name="sortTest"/>
+                    <include name="searchTest"/>
+                    <include name="addNewUserTest"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC_0005_Buttons">
+                <methods>
+                    <include name="ButtonsTest"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
