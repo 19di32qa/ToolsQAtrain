@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 import org.testng.annotations.BeforeTest;
 
 public class BaseClass {
-    private static final Logger logger = LoggerFactory.getLogger(BaseClass.class);
+    public static final Logger logger = LoggerFactory.getLogger(BaseClass.class);
     //WebDriver driver;
     @BeforeTest
     public void setUp() {
