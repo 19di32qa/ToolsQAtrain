@@ -54,3 +54,189 @@
 2022-11-08 18:21:08,691 INFO P.BaseClass [main] Test is started
 2022-11-08 18:38:13,641 INFO P.BaseClass [main] Test is started
 2022-11-08 18:39:50,171 INFO P.BaseClass [main] Test is started
+2022-11-09 10:39:54,808 INFO P.BaseClass [main] Test is started
+2022-11-09 10:43:14,067 INFO P.BaseClass [main] Test is started
+2022-11-09 10:55:43,367 INFO P.BaseClass [main] Test is started
+2022-11-09 11:00:51,101 INFO P.BaseClass [main] Test is started
+2022-11-09 11:03:32,778 INFO P.BaseClass [main] Test is started
+2022-11-09 12:01:54,451 INFO P.BaseClass [main] Test is started
+2022-11-09 12:03:01,442 INFO P.BaseClass [main] Test is started
+2022-11-09 12:08:47,900 INFO P.BaseClass [main] Test is started
+2022-11-09 12:10:52,488 INFO P.BaseClass [main] Test is started
+2022-11-09 12:10:54,803 INFO P.BaseClass [CDP Connection] https://demoqa.com/links
+2022-11-09 12:10:54,803 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:55,109 INFO P.BaseClass [CDP Connection] https://code.jquery.com/ui/1.12.0/jquery-ui.min.js
+2022-11-09 12:10:55,109 INFO P.BaseClass [CDP Connection] https://code.jquery.com/jquery-3.5.0.min.js
+2022-11-09 12:10:55,109 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:55,109 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:55,109 INFO P.BaseClass [CDP Connection] https://demoqa.com/main.css
+2022-11-09 12:10:55,109 INFO P.BaseClass [CDP Connection] https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css
+2022-11-09 12:10:55,115 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:55,115 INFO P.BaseClass [CDP Connection] https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit
+2022-11-09 12:10:55,115 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:55,115 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:55,115 INFO P.BaseClass [CDP Connection] https://ad.plus/adplus-advertising.svg
+2022-11-09 12:10:55,115 INFO P.BaseClass [CDP Connection] https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5889298451609146
+2022-11-09 12:10:55,116 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:55,116 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:55,116 INFO P.BaseClass [CDP Connection] https://www.googletagservices.com/tag/js/gpt.js
+2022-11-09 12:10:55,116 INFO P.BaseClass [CDP Connection] https://demoqa.com/bundle.js
+2022-11-09 12:10:55,116 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:55,117 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:55,718 INFO P.BaseClass [CDP Connection] https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+2022-11-09 12:10:55,718 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:55,718 INFO P.BaseClass [CDP Connection] https://www.googletagmanager.com/gtm.js?id=GTM-MX8DD4S
+2022-11-09 12:10:55,718 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:56,196 INFO P.BaseClass [CDP Connection] https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c
+2022-11-09 12:10:56,204 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:56,204 INFO P.BaseClass [CDP Connection] https://www.google-analytics.com/analytics.js
+2022-11-09 12:10:56,204 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:56,268 INFO P.BaseClass [CDP Connection] https://www.gstatic.com/recaptcha/releases/Ixi5IiChXmIG6rRkjUa1qXHT/recaptcha__en.js
+2022-11-09 12:10:56,268 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:10:56,551 INFO P.BaseClass [CDP Connection] https://www.google-analytics.com/g/collect?v=2&tid=G-MVRXK93D28&gtm=2oeb70&_p=1751945190&cid=1015220649.1667988657&ul=en-us&sr=1536x864&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B107.0.5304.88%7CChromium%3B107.0.5304.88%7CNot%253DA%253FBrand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&_s=1&sid=1667988656&sct=1&seg=0&dl=https%3A%2F%2Fdemoqa.com%2Flinks&dt=ToolsQA&en=Ad%20Blocker&_fv=1&_nsi=1&_ss=1
+2022-11-09 12:10:56,551 INFO P.BaseClass [CDP Connection] POST
+2022-11-09 12:10:56,607 INFO P.BaseClass [CDP Connection] https://www.google-analytics.com/j/collect?v=1&_v=j98&a=1751945190&t=pageview&_s=1&dl=https%3A%2F%2Fdemoqa.com%2Flinks&ul=en-us&de=UTF-8&dt=ToolsQA&sd=24-bit&sr=1536x864&vp=1036x674&je=0&_u=YADAAEABAAAAACAAI~&jid=1640027874&gjid=1198447548&cid=1015220649.1667988657&tid=UA-109033876-1&_gid=2090926704.1667988657&_r=1&gtm=2wgb70MX8DD4S&z=831987656
+2022-11-09 12:10:56,607 INFO P.BaseClass [CDP Connection] POST
+2022-11-09 12:10:56,717 INFO P.BaseClass [CDP Connection] https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j98&tid=UA-109033876-1&cid=1015220649.1667988657&jid=1640027874&gjid=1198447548&_gid=2090926704.1667988657&_u=YADAAEAAAAAAACAAI~&z=1318499280
+2022-11-09 12:10:56,717 INFO P.BaseClass [CDP Connection] POST
+2022-11-09 12:11:00,472 INFO P.BaseClass [CDP Connection] https://demoqa.com/images/Toolsqa.jpg
+2022-11-09 12:11:00,475 INFO P.BaseClass [CDP Connection] https://cdn.ad.plus/player/adplus.js
+2022-11-09 12:11:00,475 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:11:00,475 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:11:00,475 INFO P.BaseClass [CDP Connection] https://demoqa.com/assets/DemoQA_banner_Katalon_Free_Automation_Tools.png
+2022-11-09 12:11:00,476 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:11:00,520 INFO P.BaseClass [CDP Connection] https://demoqa.com/images/gplaypattern.jpg
+2022-11-09 12:11:00,520 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:11:02,443 INFO P.BaseClass [CDP Connection] https://serving.stat-rock.com/v1/placements/IarNH2SaIIhl/code/js/1?url=https%3A%2F%2Fdemoqa.com%2Flinks&b=0.024565341973007193
+2022-11-09 12:11:02,443 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:11:02,443 INFO P.BaseClass [CDP Connection] https://demoqa.com/favicon.ico
+2022-11-09 12:11:02,443 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:11:02,531 INFO P.BaseClass [CDP Connection] https://demoqa.com/created
+2022-11-09 12:11:02,531 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:11:48,981 INFO P.BaseClass [main] Test is started
+2022-11-09 12:16:49,434 INFO P.BaseClass [main] Test is started
+2022-11-09 12:16:58,951 INFO P.BaseClass [CDP Connection] https://demoqa.com/created
+2022-11-09 12:16:58,951 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:16:58,951 INFO P.BaseClass [CDP Connection] {sec-ch-ua="Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24", Referer=https://demoqa.com/links, sec-ch-ua-mobile=?0, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, sec-ch-ua-platform="Windows"}
+2022-11-09 12:18:14,144 INFO P.BaseClass [main] Test is started
+2022-11-09 12:18:24,087 INFO P.BaseClass [CDP Connection] https://demoqa.com/created
+2022-11-09 12:18:24,087 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:18:24,087 INFO P.BaseClass [CDP Connection] {sec-ch-ua="Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24", Referer=https://demoqa.com/links, sec-ch-ua-mobile=?0, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, sec-ch-ua-platform="Windows"}
+2022-11-09 12:18:24,087 INFO P.BaseClass [CDP Connection] 12292.34
+2022-11-09 12:20:08,542 INFO P.BaseClass [main] Test is started
+2022-11-09 12:20:18,294 INFO P.BaseClass [CDP Connection] https://demoqa.com/created
+2022-11-09 12:20:18,294 INFO P.BaseClass [CDP Connection] {sec-ch-ua="Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24", Referer=https://demoqa.com/links, sec-ch-ua-mobile=?0, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, sec-ch-ua-platform="Windows"}
+2022-11-09 12:20:18,294 INFO P.BaseClass [CDP Connection] Optional.empty
+2022-11-09 12:20:18,294 INFO P.BaseClass [CDP Connection] Optional.empty
+2022-11-09 12:22:42,152 INFO P.BaseClass [main] Test is started
+2022-11-09 12:22:51,273 INFO P.BaseClass [CDP Connection] https://demoqa.com/created
+2022-11-09 12:22:51,273 INFO P.BaseClass [CDP Connection] {sec-ch-ua="Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24", Referer=https://demoqa.com/links, sec-ch-ua-mobile=?0, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, sec-ch-ua-platform="Windows"}
+2022-11-09 12:22:51,273 INFO P.BaseClass [CDP Connection] Optional.empty
+2022-11-09 12:22:51,273 INFO P.BaseClass [CDP Connection] org.openqa.selenium.devtools.v102.network.model.Request@65a5c703
+2022-11-09 12:32:20,423 INFO P.BaseClass [main] Test is started
+2022-11-09 12:33:48,611 INFO P.BaseClass [main] Test is started
+2022-11-09 12:42:53,531 INFO P.BaseClass [main] Test is started
+2022-11-09 12:44:51,819 INFO P.BaseClass [main] Test is started
+2022-11-09 12:46:48,162 INFO P.BaseClass [main] Test is started
+2022-11-09 12:49:51,786 INFO P.BaseClass [main] Test is started
+2022-11-09 12:53:08,536 INFO P.BaseClass [main] Test is started
+2022-11-09 12:53:22,530 INFO P.BaseClass [CDP Connection] 201
+2022-11-09 12:53:22,531 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:53:22,594 INFO P.BaseClass [CDP Connection] 200
+2022-11-09 12:53:22,594 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:54:34,095 INFO P.BaseClass [main] Test is started
+2022-11-09 12:54:46,048 INFO P.BaseClass [CDP Connection] 201
+2022-11-09 12:54:46,048 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:54:46,080 INFO P.BaseClass [CDP Connection] 200
+2022-11-09 12:54:46,081 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 12:56:16,084 INFO P.BaseClass [main] Test is started
+2022-11-09 13:07:22,708 INFO P.BaseClass [main] Test is started
+2022-11-09 13:07:34,343 INFO P.BaseClass [CDP Connection] 201
+2022-11-09 13:07:34,343 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 13:23:21,405 INFO P.BaseClass [main] Test is started
+2022-11-09 13:23:32,143 INFO P.BaseClass [CDP Connection] 201
+2022-11-09 13:23:32,144 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 13:23:32,144 INFO P.BaseClass [CDP Connection] https://demoqa.com/created
+2022-11-09 13:23:32,159 INFO P.BaseClass [CDP Connection] 200
+2022-11-09 13:23:32,160 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 13:23:32,160 INFO P.BaseClass [CDP Connection] https://serving.stat-rock.com/v1/log/js/1?id=&type=ERROR&placementId=5TPzg_4lZsbrixJG2p3wuSGKYeUz8Xi7YUm0vbbyiZvKA0kpK1ZQ&tagId=&message=init%20element%20is%20null&u=https%3A%2F%2Fdemoqa.com%2Flinks&t=294&v=111&p=2PkkHyMBMFIJuatuqVu0-GLeptj5JeNCA1N-kpuwKH9rZ-dT6f-r&r=0.4684835208972695
+2022-11-09 13:24:32,265 INFO P.BaseClass [main] Test is started
+2022-11-09 13:24:44,263 INFO P.BaseClass [CDP Connection] 201
+2022-11-09 13:24:44,263 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 13:24:44,264 INFO P.BaseClass [CDP Connection] https://demoqa.com/created
+2022-11-09 13:24:44,296 INFO P.BaseClass [CDP Connection] 200
+2022-11-09 13:24:44,297 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 13:24:44,297 INFO P.BaseClass [CDP Connection] https://serving.stat-rock.com/v1/log/js/1?id=&type=ERROR&placementId=5TPzg_4lZsbrixJG2p3wuSGKYeUz8Xi7YUm0vbbyiZvKA0kpK1ZQ&tagId=&message=init%20element%20is%20null&u=https%3A%2F%2Fdemoqa.com%2Flinks&t=298&v=111&p=2PkkHyMBMFIJuatuqVu0-GLeptj5JeNCA1N-kpuwKH9rZ-dT6f-r&r=0.1969831017997079
+2022-11-09 13:27:24,743 INFO P.BaseClass [main] Test is started
+2022-11-09 13:27:36,096 INFO P.BaseClass [CDP Connection] 201
+2022-11-09 13:27:36,097 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 13:27:36,097 INFO P.BaseClass [CDP Connection] https://demoqa.com/created
+2022-11-09 13:27:36,132 INFO P.BaseClass [CDP Connection] 200
+2022-11-09 13:27:36,132 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 13:27:36,132 INFO P.BaseClass [CDP Connection] https://serving.stat-rock.com/v1/log/js/1?id=&type=ERROR&placementId=5TPzg_4lZsbrixJG2p3wuSGKYeUz8Xi7YUm0vbbyiZvKA0kpK1ZQ&tagId=&message=init%20element%20is%20null&u=https%3A%2F%2Fdemoqa.com%2Flinks&t=283&v=111&p=2PkkHyMBMFIJuatuqVu0-GLeptj5JeNCA1N-kpuwKH9rZ-dT6f-r&r=0.2531869264615545
+2022-11-09 13:28:23,675 INFO P.BaseClass [main] Test is started
+2022-11-09 13:28:34,067 INFO P.BaseClass [CDP Connection] 201
+2022-11-09 13:28:34,068 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 13:28:34,068 INFO P.BaseClass [CDP Connection] https://demoqa.com/created
+2022-11-09 13:28:34,098 INFO P.BaseClass [CDP Connection] 200
+2022-11-09 13:28:34,098 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 13:28:34,098 INFO P.BaseClass [CDP Connection] https://serving.stat-rock.com/v1/log/js/1?id=&type=ERROR&placementId=5TPzg_4lZsbrixJG2p3wuSGKYeUz8Xi7YUm0vbbyiZvKA0kpK1ZQ&tagId=&message=init%20element%20is%20null&u=https%3A%2F%2Fdemoqa.com%2Flinks&t=291&v=111&p=2PkkHyMBMFIJuatuqVu0-GLeptj5JeNCA1N-kpuwKH9rZ-dT6f-r&r=0.5672810752586748
+2022-11-09 13:31:09,868 INFO P.BaseClass [main] Test is started
+2022-11-09 13:31:20,954 INFO P.BaseClass [CDP Connection] 201
+2022-11-09 13:31:20,954 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 13:31:20,955 INFO P.BaseClass [CDP Connection] https://demoqa.com/created
+2022-11-09 13:31:20,988 INFO P.BaseClass [CDP Connection] 200
+2022-11-09 13:31:20,988 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 13:31:20,989 INFO P.BaseClass [CDP Connection] https://serving.stat-rock.com/v1/log/js/1?id=&type=ERROR&placementId=5TPzg_4lZsbrixJG2p3wuSGKYeUz8Xi7YUm0vbbyiZvKA0kpK1ZQ&tagId=&message=init%20element%20is%20null&u=https%3A%2F%2Fdemoqa.com%2Flinks&t=387&v=111&p=2PkkHyMBMFIJuatuqVu0-GLeptj5JeNCA1N-kpuwKH9rZ-dT6f-r&r=0.31224649032413976
+2022-11-09 13:32:22,777 INFO P.BaseClass [main] Test is started
+2022-11-09 13:32:34,765 INFO P.BaseClass [CDP Connection] 204
+2022-11-09 13:32:34,766 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 13:32:34,766 INFO P.BaseClass [CDP Connection] https://demoqa.com/no-content
+2022-11-09 13:32:34,812 INFO P.BaseClass [CDP Connection] 200
+2022-11-09 13:32:34,813 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 13:32:34,813 INFO P.BaseClass [CDP Connection] https://serving.stat-rock.com/v1/log/js/1?id=&type=ERROR&placementId=5TPzg_4lZsbrixJG2p3wuSGKYeUz8Xi7YUm0vbbyiZvKA0kpK1ZQ&tagId=&message=init%20element%20is%20null&u=https%3A%2F%2Fdemoqa.com%2Flinks&t=242&v=111&p=2PkkHyMBMFIJuatuqVu0-GLeptj5JeNCA1N-kpuwKH9rZ-dT6f-r&r=0.5340820517032601
+2022-11-09 13:33:37,827 INFO P.BaseClass [main] Test is started
+2022-11-09 13:33:49,517 INFO P.BaseClass [CDP Connection] 200
+2022-11-09 13:33:49,517 INFO P.BaseClass [CDP Connection] GET
+2022-11-09 13:33:49,518 INFO P.BaseClass [CDP Connection] https://serving.stat-rock.com/v1/log/js/1?id=&type=ERROR&placementId=5TPzg_4lZsbrixJG2p3wuSGKYeUz8Xi7YUm0vbbyiZvKA0kpK1ZQ&tagId=&message=init%20element%20is%20null&u=https%3A%2F%2Fdemoqa.com%2Flinks&t=402&v=111&p=2PkkHyMBMFIJuatuqVu0-GLeptj5JeNCA1N-kpuwKH9rZ-dT6f-r&r=0.5103352693998893
+2022-11-09 13:39:10,606 INFO P.BaseClass [main] Test is started
+2022-11-09 13:39:22,603 INFO P.BaseClass [CDP Connection] 204
+2022-11-09 13:39:22,752 INFO P.BaseClass [CDP Connection] 200
+2022-11-09 13:39:22,906 INFO P.BaseClass [CDP Connection] HTTP/1.1 204 No Content
+2022-11-09 13:39:23,320 INFO P.BaseClass [CDP Connection] HTTP/1.1 200 
+2022-11-09 13:41:31,411 INFO P.BaseClass [main] Test is started
+2022-11-09 13:41:42,419 INFO P.BaseClass [CDP Connection] 204
+2022-11-09 13:41:42,457 WARN o.a.n.h.WebSocketHandler [AsyncHttpClient-1-4] onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258) ~[netty-buffer-4.1.78.Final.jar:4.1.78.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.78.Final.jar:4.1.78.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.78.Final.jar:4.1.78.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.78.Final.jar:4.1.78.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) [netty-transport-4.1.78.Final.jar:4.1.78.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) [netty-transport-4.1.78.Final.jar:4.1.78.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) [netty-transport-4.1.78.Final.jar:4.1.78.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) [netty-transport-4.1.78.Final.jar:4.1.78.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.78.Final.jar:4.1.78.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.78.Final.jar:4.1.78.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.78.Final.jar:4.1.78.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-11-09 13:41:42,550 INFO P.BaseClass [CDP Connection] 200
+2022-11-09 13:42:54,041 INFO P.BaseClass [main] Test is started
+2022-11-09 13:43:49,378 INFO P.BaseClass [main] Test is started
+2022-11-09 13:45:22,139 INFO P.BaseClass [main] Test is started
+2022-11-09 13:45:34,553 INFO P.BaseClass [CDP Connection] 204
+2022-11-09 13:45:34,690 INFO P.BaseClass [CDP Connection] 200
+2022-11-09 13:45:34,835 INFO P.BaseClass [CDP Connection] HTTP/1.1 204 No Content
+2022-11-09 13:45:34,835 INFO P.BaseClass [CDP Connection] https://demoqa.com/no-content
+2022-11-09 13:45:35,151 INFO P.BaseClass [CDP Connection] HTTP/1.1 200 
+2022-11-09 13:45:35,151 INFO P.BaseClass [CDP Connection] https://serving.stat-rock.com/v1/log/js/1?id=&type=ERROR&placementId=5TPzg_4lZsbrixJG2p3wuSGKYeUz8Xi7YUm0vbbyiZvKA0kpK1ZQ&tagId=&message=init%20element%20is%20null&u=https%3A%2F%2Fdemoqa.com%2Flinks&t=345&v=111&p=2PkkHyMBMFIJuatuqVu0-GLeptj5JeNCA1N-kpuwKH9rZ-dT6f-r&r=0.3719405141957206
+2022-11-09 13:51:40,014 INFO P.BaseClass [main] Test is started
+2022-11-09 13:54:30,907 INFO P.BaseClass [main] Test is started
+2022-11-09 13:55:18,638 INFO P.BaseClass [main] Test is started
+2022-11-09 13:56:24,113 INFO P.BaseClass [main] Test is started
+2022-11-09 13:57:02,932 INFO P.BaseClass [main] Test is started
+2022-11-09 13:58:00,648 INFO P.BaseClass [main] Test is started
+2022-11-09 13:59:02,274 INFO P.BaseClass [main] Test is started
+2022-11-09 14:00:07,355 INFO P.BaseClass [main] Test is started

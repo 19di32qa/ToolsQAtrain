@@ -3,6 +3,11 @@ package PageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class TextBox {
     private WebDriver driver;
@@ -31,7 +36,10 @@ public class TextBox {
         driver.findElement(permanentAddress).sendKeys(addr);
     }
     public WebElement getSubmitBtn() {
-        return driver.findElement(submitBtn);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        WebElement el = wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(submitBtn)));
+        return el;
+
     }
 
     public WebElement getName() {

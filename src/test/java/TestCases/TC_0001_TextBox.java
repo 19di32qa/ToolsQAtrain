@@ -2,7 +2,9 @@ package TestCases;
 
 import PageObjects.BaseClass;
 import PageObjects.TextBox;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -20,10 +22,12 @@ public class TC_0001_TextBox extends BaseClass {
         tb.setEmail("rydootest3123@gmail.com");
         tb.setCurAddress("City1");
         tb.setPermanentAddress("City2");
-        Thread.sleep(5000);
+
         //tb.getSubmitBtn().submit();
-        tb.getSubmitBtn().click();
-        tb.getSubmitBtn().click();
+        WebElement el = tb.getSubmitBtn();
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click()",el);
+        //tb.getSubmitBtn().click();
 
         Assert.assertEquals(tb.getName().getText(),"Name:Alex");
         Assert.assertEquals(tb.getEmail().getText(),"Email:rydootest3123@gmail.com");
