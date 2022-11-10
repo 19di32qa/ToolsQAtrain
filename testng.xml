@@ -30,6 +30,31 @@
                     <include name="ButtonsTest"/>
                 </methods>
             </class>
+            <class name="TestCases.TC_0006_Links">
+                <methods>
+                    <include name="LinksTest"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC_0007_Links_Api">
+                <methods>
+                    <include name="ApiCallsTest"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC_0008_BrokenLinks">
+                <methods>
+                    <include name="BrokenLinksTest"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC_0009_UploadAndDownload">
+                <methods>
+                    <include name="UploadAndDownloadTest"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC_0010_DynamicProperties">
+                <methods>
+                    <include name="DynamicPropertiesTest"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

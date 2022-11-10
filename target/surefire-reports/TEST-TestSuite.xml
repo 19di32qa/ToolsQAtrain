@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="42.598" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="204.811" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Dima\Desktop\ToolsQaProject\src\main\resources\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\Dima\Desktop\ToolsQaProject\target\test-classes;C:\Users\Dima\Desktop\ToolsQaProject\target\classes;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-java\4.4.0\selenium-java-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-api\4.4.0\selenium-api-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.4.0\selenium-chrome-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Dima\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Dima\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dima\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dima\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Dima\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Dima\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.4.0\selenium-chromium-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-json\4.4.0\selenium-json-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.4.0\selenium-devtools-v102-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.4.0\selenium-devtools-v103-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.4.0\selenium-devtools-v104-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.4.0\selenium-devtools-v85-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.4.0\selenium-edge-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.4.0\selenium-firefox-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.4.0\selenium-ie-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.4.0\selenium-opera-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.4.0\selenium-remote-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-api\1.16.0\opentelemetry-api-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-context\1.16.0\opentelemetry-context-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.16.0\opentelemetry-exporter-logging-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.16.0\opentelemetry-sdk-metrics-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.16.0-alpha\opentelemetry-sdk-logs-1.16.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.16.0\opentelemetry-sdk-common-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.16.0\opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.16.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.16.0\opentelemetry-sdk-trace-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.16.0\opentelemetry-sdk-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.16.0-alpha\opentelemetry-semconv-1.16.0-alpha.jar;C:\Users\Dima\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Dima\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Dima\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Dima\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Dima\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-http\4.4.0\selenium-http-4.4.0.jar;C:\Users\Dima\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.4.0\selenium-safari-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-support\4.4.0\selenium-support-4.4.0.jar;C:\Users\Dima\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Dima\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Dima\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Dima\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Dima\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Dima\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-core\2.15.0\log4j-core-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.15.0\log4j-slf4j-impl-2.15.0.jar;C:\Users\Dima\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;"/>
+    <property name="java.class.path" value="C:\Users\Dima\Desktop\ToolsQaProject\target\test-classes;C:\Users\Dima\Desktop\ToolsQaProject\target\classes;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-java\4.4.0\selenium-java-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-api\4.4.0\selenium-api-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.4.0\selenium-chrome-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Dima\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Dima\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dima\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dima\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Dima\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Dima\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.4.0\selenium-chromium-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-json\4.4.0\selenium-json-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.4.0\selenium-devtools-v102-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.4.0\selenium-devtools-v103-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.4.0\selenium-devtools-v104-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.4.0\selenium-devtools-v85-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.4.0\selenium-edge-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.4.0\selenium-firefox-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.4.0\selenium-ie-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.4.0\selenium-opera-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.4.0\selenium-remote-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-api\1.16.0\opentelemetry-api-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-context\1.16.0\opentelemetry-context-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.16.0\opentelemetry-exporter-logging-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.16.0\opentelemetry-sdk-metrics-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.16.0-alpha\opentelemetry-sdk-logs-1.16.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.16.0\opentelemetry-sdk-common-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.16.0\opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.16.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.16.0\opentelemetry-sdk-trace-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.16.0\opentelemetry-sdk-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.16.0-alpha\opentelemetry-semconv-1.16.0-alpha.jar;C:\Users\Dima\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Dima\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Dima\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Dima\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Dima\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-http\4.4.0\selenium-http-4.4.0.jar;C:\Users\Dima\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.4.0\selenium-safari-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-support\4.4.0\selenium-support-4.4.0.jar;C:\Users\Dima\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Dima\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Dima\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Dima\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Dima\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Dima\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-core\2.15.0\log4j-core-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.15.0\log4j-slf4j-impl-2.15.0.jar;C:\Users\Dima\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Dima\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Dima\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dima\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Dima\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Dima\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Dima\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Dima\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Dima\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dima\AppData\Local\Temp\surefire1567739997947926869\surefirebooter-20221107192659153_3.jar C:\Users\Dima\AppData\Local\Temp\surefire1567739997947926869 2022-11-07T19-26-58_669-jvmRun1 surefire-20221107192659153_1tmp surefire_0-20221107192659153_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dima\AppData\Local\Temp\surefire16154510188793323849\surefirebooter-20221109184607292_3.jar C:\Users\Dima\AppData\Local\Temp\surefire16154510188793323849 2022-11-09T18-46-06_847-jvmRun1 surefire-20221109184607292_1tmp surefire_0-20221109184607292_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Dima\Desktop\ToolsQaProject\target\test-classes;C:\Users\Dima\Desktop\ToolsQaProject\target\classes;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-java\4.4.0\selenium-java-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-api\4.4.0\selenium-api-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.4.0\selenium-chrome-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Dima\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Dima\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dima\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dima\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Dima\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Dima\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.4.0\selenium-chromium-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-json\4.4.0\selenium-json-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.4.0\selenium-devtools-v102-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.4.0\selenium-devtools-v103-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.4.0\selenium-devtools-v104-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.4.0\selenium-devtools-v85-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.4.0\selenium-edge-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.4.0\selenium-firefox-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.4.0\selenium-ie-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.4.0\selenium-opera-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.4.0\selenium-remote-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-api\1.16.0\opentelemetry-api-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-context\1.16.0\opentelemetry-context-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.16.0\opentelemetry-exporter-logging-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.16.0\opentelemetry-sdk-metrics-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.16.0-alpha\opentelemetry-sdk-logs-1.16.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.16.0\opentelemetry-sdk-common-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.16.0\opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.16.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.16.0\opentelemetry-sdk-trace-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.16.0\opentelemetry-sdk-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.16.0-alpha\opentelemetry-semconv-1.16.0-alpha.jar;C:\Users\Dima\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Dima\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Dima\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Dima\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Dima\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-http\4.4.0\selenium-http-4.4.0.jar;C:\Users\Dima\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.4.0\selenium-safari-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-support\4.4.0\selenium-support-4.4.0.jar;C:\Users\Dima\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Dima\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Dima\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Dima\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Dima\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Dima\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-core\2.15.0\log4j-core-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.15.0\log4j-slf4j-impl-2.15.0.jar;C:\Users\Dima\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Dima\Desktop\ToolsQaProject\target\test-classes;C:\Users\Dima\Desktop\ToolsQaProject\target\classes;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-java\4.4.0\selenium-java-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-api\4.4.0\selenium-api-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.4.0\selenium-chrome-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Dima\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Dima\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dima\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dima\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Dima\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Dima\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.4.0\selenium-chromium-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-json\4.4.0\selenium-json-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.4.0\selenium-devtools-v102-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.4.0\selenium-devtools-v103-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.4.0\selenium-devtools-v104-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.4.0\selenium-devtools-v85-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.4.0\selenium-edge-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.4.0\selenium-firefox-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.4.0\selenium-ie-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.4.0\selenium-opera-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.4.0\selenium-remote-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-api\1.16.0\opentelemetry-api-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-context\1.16.0\opentelemetry-context-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.16.0\opentelemetry-exporter-logging-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.16.0\opentelemetry-sdk-metrics-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.16.0-alpha\opentelemetry-sdk-logs-1.16.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.16.0\opentelemetry-sdk-common-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.16.0\opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.16.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.16.0\opentelemetry-sdk-trace-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.16.0\opentelemetry-sdk-1.16.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.16.0-alpha\opentelemetry-semconv-1.16.0-alpha.jar;C:\Users\Dima\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Dima\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Dima\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Dima\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Dima\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-http\4.4.0\selenium-http-4.4.0.jar;C:\Users\Dima\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.4.0\selenium-safari-driver-4.4.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-support\4.4.0\selenium-support-4.4.0.jar;C:\Users\Dima\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Dima\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Dima\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Dima\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Dima\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Dima\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-core\2.15.0\log4j-core-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.15.0\log4j-slf4j-impl-2.15.0.jar;C:\Users\Dima\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Dima\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Dima\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dima\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Dima\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Dima\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Dima\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Dima\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Dima\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Dima"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dima\AppData\Local\Temp\surefire1567739997947926869\surefirebooter-20221107192659153_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dima\AppData\Local\Temp\surefire16154510188793323849\surefirebooter-20221109184607292_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
@@ -57,88 +57,397 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="TextBoxTest" classname="TestCases.TC_0001_TextBox" time="28.333">
-    <system-out><![CDATA[2022-11-07 19:27:00,623 main DEBUG Apache Log4j Core 2.15.0 initializing configuration XmlConfiguration[location=C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml]
-2022-11-07 19:27:00,631 main DEBUG Installed 0 script engines
-2022-11-07 19:27:00,632 main DEBUG PluginManager 'Core' found 127 plugins
-2022-11-07 19:27:00,633 main DEBUG PluginManager 'Level' found 0 plugins
-2022-11-07 19:27:00,637 main DEBUG PluginManager 'Lookup' found 16 plugins
-2022-11-07 19:27:00,640 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
-2022-11-07 19:27:00,657 main DEBUG PluginManager 'TypeConverter' found 26 plugins
-2022-11-07 19:27:00,677 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
-2022-11-07 19:27:00,678 main DEBUG PluginManager 'Converter' found 45 plugins
-2022-11-07 19:27:00,682 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
-2022-11-07 19:27:00,694 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="LogToConsole", Configuration(C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml), Filter=null, ={})
-2022-11-07 19:27:00,697 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
-2022-11-07 19:27:00,698 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
-2022-11-07 19:27:00,699 main DEBUG PatternLayout$Builder(pattern="%d %p %c{1.} [%t] %m%n", PatternSelector=null, Configuration(C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
-2022-11-07 19:27:00,719 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
-2022-11-07 19:27:00,723 main DEBUG FileAppender$Builder(fileName="logs/app.log", append="null", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d %p %c{1.} [%t] %m%n), name="LogToFile", Configuration(C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml), Filter=null, ={})
-2022-11-07 19:27:00,727 main DEBUG Starting FileManager logs/app.log
-2022-11-07 19:27:00,728 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
-2022-11-07 19:27:00,728 main DEBUG createAppenders(={LogToConsole, LogToFile})
-2022-11-07 19:27:00,729 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2022-11-07 19:27:00,734 main DEBUG createAppenderRef(ref="LogToFile", level="null", Filter=null)
-2022-11-07 19:27:00,734 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2022-11-07 19:27:00,735 main DEBUG createAppenderRef(ref="LogToConsole", level="null", Filter=null)
-2022-11-07 19:27:00,735 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
-2022-11-07 19:27:00,738 main DEBUG createLogger(additivity="false", level="DEBUG", name="com.mkyong", includeLocation="null", ={LogToFile, LogToConsole}, ={}, Configuration(C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml), Filter=null)
-2022-11-07 19:27:00,741 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2022-11-07 19:27:00,743 main DEBUG createAppenderRef(ref="LogToConsole", level="null", Filter=null)
-2022-11-07 19:27:00,743 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
-2022-11-07 19:27:00,744 main DEBUG createLogger(additivity="false", level="INFO", name="org.springframework.boot", includeLocation="null", ={LogToConsole}, ={}, Configuration(C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml), Filter=null)
-2022-11-07 19:27:00,744 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2022-11-07 19:27:00,747 main DEBUG createAppenderRef(ref="LogToFile", level="null", Filter=null)
-2022-11-07 19:27:00,747 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2022-11-07 19:27:00,748 main DEBUG createAppenderRef(ref="LogToConsole", level="null", Filter=null)
-2022-11-07 19:27:00,749 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
-2022-11-07 19:27:00,750 main DEBUG createLogger(additivity="null", level="INFO", includeLocation="null", ={LogToFile, LogToConsole}, ={}, Configuration(C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml), Filter=null)
-2022-11-07 19:27:00,751 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
-2022-11-07 19:27:00,753 main DEBUG createLoggers(={com.mkyong, org.springframework.boot, root})
-2022-11-07 19:27:00,755 main DEBUG Configuration XmlConfiguration[location=C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml] initialized
-2022-11-07 19:27:00,756 main DEBUG Starting configuration XmlConfiguration[location=C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml]
-2022-11-07 19:27:00,756 main DEBUG Started configuration XmlConfiguration[location=C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml] OK.
-2022-11-07 19:27:00,757 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
-2022-11-07 19:27:00,758 main DEBUG OutputStream closed
-2022-11-07 19:27:00,758 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
-2022-11-07 19:27:00,759 main DEBUG Appender DefaultConsole-1 stopped with status true
-2022-11-07 19:27:00,759 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@544fa968 OK
-2022-11-07 19:27:00,878 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55
-2022-11-07 19:27:00,883 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=StatusLogger
-2022-11-07 19:27:00,885 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=ContextSelector
-2022-11-07 19:27:00,887 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Loggers,name=org.springframework.boot
-2022-11-07 19:27:00,888 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Loggers,name=
-2022-11-07 19:27:00,888 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Loggers,name=com.mkyong
-2022-11-07 19:27:00,890 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Appenders,name=LogToConsole
-2022-11-07 19:27:00,891 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Appenders,name=LogToFile
-2022-11-07 19:27:00,893 main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
-2022-11-07 19:27:00,893 main DEBUG Reconfiguration complete for context[name=2a139a55] at URI C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@7f0d96f2) with optional ClassLoader: null
-2022-11-07 19:27:00,894 main DEBUG Shutdown hook enabled. Registering a new one.
-2022-11-07 19:27:00,895 main DEBUG LoggerContext[name=2a139a55, org.apache.logging.log4j.core.LoggerContext@7f0d96f2] started OK.
-19:27:00.959 [main] INFO  PageObjects.BaseClass - Test is started
+  <testcase name="TextBoxTest" classname="TestCases.TC_0001_TextBox" time="15.803">
+    <system-out><![CDATA[2022-11-09 18:46:08,758 main DEBUG Apache Log4j Core 2.15.0 initializing configuration XmlConfiguration[location=C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml]
+2022-11-09 18:46:08,774 main DEBUG Installed 0 script engines
+2022-11-09 18:46:08,774 main DEBUG PluginManager 'Core' found 127 plugins
+2022-11-09 18:46:08,774 main DEBUG PluginManager 'Level' found 0 plugins
+2022-11-09 18:46:08,774 main DEBUG PluginManager 'Lookup' found 16 plugins
+2022-11-09 18:46:08,774 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2022-11-09 18:46:08,789 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2022-11-09 18:46:08,821 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2022-11-09 18:46:08,821 main DEBUG PluginManager 'Converter' found 45 plugins
+2022-11-09 18:46:08,821 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2022-11-09 18:46:08,836 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="LogToConsole", Configuration(C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml), Filter=null, ={})
+2022-11-09 18:46:08,836 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2022-11-09 18:46:08,836 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2022-11-09 18:46:08,836 main DEBUG PatternLayout$Builder(pattern="%d %p %c{1.} [%t] %m%n", PatternSelector=null, Configuration(C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2022-11-09 18:46:08,867 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
+2022-11-09 18:46:08,867 main DEBUG FileAppender$Builder(fileName="logs/app.log", append="null", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d %p %c{1.} [%t] %m%n), name="LogToFile", Configuration(C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml), Filter=null, ={})
+2022-11-09 18:46:08,867 main DEBUG Starting FileManager logs/app.log
+2022-11-09 18:46:08,867 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2022-11-09 18:46:08,867 main DEBUG createAppenders(={LogToConsole, LogToFile})
+2022-11-09 18:46:08,867 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-09 18:46:08,883 main DEBUG createAppenderRef(ref="LogToFile", level="null", Filter=null)
+2022-11-09 18:46:08,883 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-09 18:46:08,883 main DEBUG createAppenderRef(ref="LogToConsole", level="null", Filter=null)
+2022-11-09 18:46:08,883 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2022-11-09 18:46:08,883 main DEBUG createLogger(additivity="false", level="DEBUG", name="com.mkyong", includeLocation="null", ={LogToFile, LogToConsole}, ={}, Configuration(C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml), Filter=null)
+2022-11-09 18:46:08,883 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-09 18:46:08,883 main DEBUG createAppenderRef(ref="LogToConsole", level="null", Filter=null)
+2022-11-09 18:46:08,883 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2022-11-09 18:46:08,883 main DEBUG createLogger(additivity="false", level="INFO", name="org.springframework.boot", includeLocation="null", ={LogToConsole}, ={}, Configuration(C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml), Filter=null)
+2022-11-09 18:46:08,883 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-09 18:46:08,883 main DEBUG createAppenderRef(ref="LogToFile", level="null", Filter=null)
+2022-11-09 18:46:08,883 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-11-09 18:46:08,883 main DEBUG createAppenderRef(ref="LogToConsole", level="null", Filter=null)
+2022-11-09 18:46:08,883 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2022-11-09 18:46:08,883 main DEBUG createLogger(additivity="null", level="INFO", includeLocation="null", ={LogToFile, LogToConsole}, ={}, Configuration(C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml), Filter=null)
+2022-11-09 18:46:08,899 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2022-11-09 18:46:08,899 main DEBUG createLoggers(={com.mkyong, org.springframework.boot, root})
+2022-11-09 18:46:08,899 main DEBUG Configuration XmlConfiguration[location=C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml] initialized
+2022-11-09 18:46:08,899 main DEBUG Starting configuration XmlConfiguration[location=C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml]
+2022-11-09 18:46:08,899 main DEBUG Started configuration XmlConfiguration[location=C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml] OK.
+2022-11-09 18:46:08,899 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2022-11-09 18:46:08,899 main DEBUG OutputStream closed
+2022-11-09 18:46:08,899 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2022-11-09 18:46:08,899 main DEBUG Appender DefaultConsole-1 stopped with status true
+2022-11-09 18:46:08,899 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@1ebd319f OK
+2022-11-09 18:46:09,023 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55
+2022-11-09 18:46:09,023 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=StatusLogger
+2022-11-09 18:46:09,023 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=ContextSelector
+2022-11-09 18:46:09,023 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Loggers,name=org.springframework.boot
+2022-11-09 18:46:09,023 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Loggers,name=
+2022-11-09 18:46:09,023 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Loggers,name=com.mkyong
+2022-11-09 18:46:09,023 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Appenders,name=LogToConsole
+2022-11-09 18:46:09,023 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Appenders,name=LogToFile
+2022-11-09 18:46:09,023 main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2022-11-09 18:46:09,023 main DEBUG Reconfiguration complete for context[name=2a139a55] at URI C:\Users\Dima\Desktop\ToolsQaProject\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@40db2a24) with optional ClassLoader: null
+2022-11-09 18:46:09,023 main DEBUG Shutdown hook enabled. Registering a new one.
+2022-11-09 18:46:09,038 main DEBUG LoggerContext[name=2a139a55, org.apache.logging.log4j.core.LoggerContext@40db2a24] started OK.
+18:46:09.101 [main] INFO  PageObjects.BaseClass - Test is started
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 51899
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 53421
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 07, 2022 7:27:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 09, 2022 6:46:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Nov 07, 2022 7:27:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Nov 09, 2022 6:46:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 104
-Nov 07, 2022 7:27:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Nov 09, 2022 6:46:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 107 of 104
 ]]></system-err>
   </testcase>
-  <testcase name="CheckBoxTest" classname="TestCases.TC_0002_Checkbox" time="12.86">
-    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 51403
+  <testcase name="CheckBoxTest" classname="TestCases.TC_0002_Checkbox" time="13.593">
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 52013
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 07, 2022 7:27:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 09, 2022 6:46:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Nov 07, 2022 7:27:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Nov 09, 2022 6:46:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 104
-Nov 07, 2022 7:27:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Nov 09, 2022 6:46:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 104
+]]></system-err>
+  </testcase>
+  <testcase name="radioButtonsTest[Yes](1)" classname="TestCases.TC_0003_RadioButtons" time="12.558">
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 52271
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 09, 2022 6:46:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 09, 2022 6:46:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 104
+Nov 09, 2022 6:46:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 104
+]]></system-err>
+  </testcase>
+  <testcase name="radioButtonsTest[Impressive](2)" classname="TestCases.TC_0003_RadioButtons" time="17.94">
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 65195
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 09, 2022 6:46:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 09, 2022 6:46:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 104
+Nov 09, 2022 6:46:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 104
+]]></system-err>
+  </testcase>
+  <testcase name="radioButtonsTest[No](3)" classname="TestCases.TC_0003_RadioButtons" time="14.715">
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 55963
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 09, 2022 6:47:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 09, 2022 6:47:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 104
+Nov 09, 2022 6:47:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 104
+]]></system-err>
+  </testcase>
+  <testcase name="sortTest" classname="TestCases.TC_0004_WebTable" time="14.56">
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 52851
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 09, 2022 6:47:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 09, 2022 6:47:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 104
+Nov 09, 2022 6:47:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 104
+]]></system-err>
+  </testcase>
+  <testcase name="searchTest" classname="TestCases.TC_0004_WebTable" time="12.88">
+    <system-out><![CDATA[18:47:50.913 [main] INFO  PageObjects.BaseClass -  
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 63991
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 09, 2022 6:47:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 09, 2022 6:47:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 104
+Nov 09, 2022 6:47:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 104
+]]></system-err>
+  </testcase>
+  <testcase name="addNewUserTest" classname="TestCases.TC_0004_WebTable" time="14.145">
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 61882
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 09, 2022 6:47:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 09, 2022 6:47:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 104
+Nov 09, 2022 6:47:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 104
+]]></system-err>
+  </testcase>
+  <testcase name="ButtonsTest" classname="TestCases.TC_0005_Buttons" time="14.761">
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 60207
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 09, 2022 6:48:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 09, 2022 6:48:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 104
+Nov 09, 2022 6:48:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 104
+]]></system-err>
+  </testcase>
+  <testcase name="LinksTest" classname="TestCases.TC_0006_Links" time="19.341">
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 56572
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 09, 2022 6:48:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 09, 2022 6:48:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 104
+Nov 09, 2022 6:48:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 104
+]]></system-err>
+  </testcase>
+  <testcase name="ApiCallsTest[https://demoqa.com/created, HTTP/1.1 201 Created, 201](1)" classname="TestCases.TC_0007_Links_Api" time="3.436"/>
+  <testcase name="ApiCallsTest[https://demoqa.com/no-content, HTTP/1.1 204 No Content, 204](2)" classname="TestCases.TC_0007_Links_Api" time="0.841"/>
+  <testcase name="BrokenLinksTest" classname="TestCases.TC_0008_BrokenLinks" time="14.784">
+    <system-out><![CDATA[500
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 53818
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 09, 2022 6:48:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 09, 2022 6:48:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 104
+Nov 09, 2022 6:48:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 104
+]]></system-err>
+  </testcase>
+  <testcase name="UploadAndDownloadTest" classname="TestCases.TC_0009_UploadAndDownload" time="16.985">
+    <system-out><![CDATA[File 019432-Zima-derevushka-prud.jpg
+File 1616997022_42-p-tigr-fon-47.jpg
+File 1620828030_58-oir_mobi-p-zhivie-oboi-s-zhivotnimi-zhivotnie-krasivo-60.jpg
+File 1621688929_4-oir_mobi-p-tigr-na-kamne-zhivotnie-krasivo-foto-5.jpg
+File 16332_victoria_ii_v30.torrent
+File 297953103.jpg
+File 313930.jpg
+File 31b803af.exe
+File 4-1-LT1.save
+File 5zsa010fkr7a2lc0.exe
+File 741805475.zip
+File 7z2106-x64 (1).exe
+File 7z2106-x64.exe
+File 82603_ba56a0d32c7bef24fc9a3964790e6763.pdf
+File aact (2).zip
+File AnyDesk.exe
+File apache-jmeter-5.5.zip
+File apache-maven-3.8.4-bin.zip
+File apache-maven-3.8.6-bin.zip
+File avast_free_antivirus_setup_online.exe
+File BAI-master.zip
+File BAI_Beta_v6a.1.7z
+File BlueStacksInstaller_5.5.101.1001_native_1737e2a6a919b7fb71b482eedbad04ea_0_Q3JpbWluYWwgQ2FzZTogTXlzdGVyaWVzIG9mIHRoZSBQYXN0.exe
+File BlueStacksInstaller_5.5.101.1001_native_8ed071ba1cb1a4bc6ba4ac8deb013a6f_0_TXVyZGVyIGluIEFscHM6IEhpZGRlbiBNeXN0ZXJ5.exe
+File chromedriver_win32 (1).zip
+File chromedriver_win32.zip
+File ChromeSetup (1).exe
+File ChromeSetup.exe
+File chronology-mod-master.zip
+File CWE_1.14.zip
+File desktop.ini
+File driver-booster-9-0-1-104.exe
+File edgedriver_win64.zip
+File es3205af.exe
+File Europa Universalis IV v.1.33.3.0 (2013).torrent
+File europa-universalis-iv.torrent
+File Europa.Universalis.IV.v1.33.3-0xdeadc0de.rar
+File Europa_Universalis_4-2723515.exe
+File Europa_Universalis_4-jgs4.zip
+File Europa_Universalis_4-lAFP.zip
+File Europa_Universalis_IV-2239763.exe
+File Europa_Universalis_IV-jyPn.zip
+File europa_universalis_iv_1_33_2 (1).torrent
+File europa_universalis_iv_1_33_2.torrent
+File Farming-Simulator-17-by-Igruha.torrent
+File filosofiya-java-piter.pdf
+File geckodriver-v0.32.0-win32.zip
+File geroi-5-zolotoe-izdanie.torrent
+File Git-2.38.0-64-bit.exe
+File GitHubDesktopSetup-x64.exe
+File GPMv0.3.rar
+File grand-theft-auto-san-andreas.torrent
+File Haverbeke_Vyrazitelnyy-JavaScript_RuLit_Me_445590.html.zip
+File Head-First-Java-2nd-edition.pdf
+File Head_First_Java_Second_Edition.pdf
+File Hearts of Iron IV Field Marshal Edition v1.11.11.zip
+File hearts_of_iron_iv_v1_11_10 (1).torrent
+File hearts_of_iron_iv_v1_11_10.torrent
+File HFM-Development.zip
+File HPM_0.4.6.3.7z
+File ideaIC-2021.3.exe
+File IEDriverServer_Win32_4.5.0.zip
+File ISTQB_CTFL_2018_SampleExamQuestions_A_EN.zip
+File ISTQB_CTFL_2018_SampleExamQuestions_A_RU.zip
+File ISTQB_CTFL_Syllabus_2018_RU.pdf
+File JavaScript для глубокого обучения TensorFlow.js by Франсуа Шолле, Эрик Нильсон, Стэн Байлесчи, Шэнкуинг Цэй (z-lib.org).pdf
+File jdk-17_windows-x64_bin.exe
+File KMSAuto-2021[G8CaREB8Q].exe
+File kmsauto-portable-v1_5_7.zip
+File kmsauto_lite_v1.3.1.zip
+File LSBSetup.exe
+File microsoft-office-2016-2019-w10-2021_06.torrent
+File microsoft-office-2019-professional-plus.torrent
+File microsoft-office-2019.torrent
+File Microsoft_Office_2019_(2021.11)_Win_10-11[67CYVVLyY].exe
+File Microsoft_Office_2019_(2021.11)_Win_10-11[A0CB66a5l].exe
+File mysql-installer-web-community-8.0.30.0.msi
+File nkewyqnkgkwf.jpg
+File nomacs-setup-x64.msi
+File northwind.sql.tar.gz
+File OrangeHRM-main.zip
+File orig-1639147849gi98BjmjEe09rQWhaMBpXFWQYF3OKZhcyerEGQtJ.jpeg
+File Postman-win64-9.5.0-Setup.exe
+File QA_bible-master.zip
+File qdoc.tips_keynote-upper-intermediate-student-s-book.pdf
+File rpa-extractor-for-windows.zip
+File sampleFile (1).jpeg
+File sampleFile (2).jpeg
+File sampleFile (3).jpeg
+File sampleFile (4).jpeg
+File sampleFile (5).jpeg
+File sampleFile (6).jpeg
+File sampleFile (7).jpeg
+File sampleFile.jpeg
+File scale_1200.jpg
+File Selenium Testing Tools Cookbook, 2nd Edition Over 90 recipes to help you build and run automated tests for your web applications with Selenium WebDriver by Unmesh Gundecha (z-lib.org).pdf
+File Selenium Webdriver Practical Guide.pdf
+File Selenium_2_Testing_Tools.pdf
+File Skype-8.79.0.95.exe
+File STAHL_GRAPHIC_MODS.rar
+File Student's Book.pdf
+File system-test-case-sample.doc
+File test case template 05.xlsx
+File test-case-example-01.doc
+File test-case-example-02.doc
+File test-case-example.xlsx
+File test-case-review-template.doc
+File test-case-template-01.doc
+File test-case-template-02.doc
+File test-case-template-03.doc
+File Tiger-1920x1200.jpg
+File tigr_art_goluboglazyj_136938_1920x1080.jpg
+File tigr_steklo_oskolki_agressiya_oskal_26714_1920x1080.jpg
+File tsetup-x64.4.2.4.exe
+File uiso9_pe.exe
+File unnamed (1).jpg
+File unnamed.jpg
+File unrpa.rar
+File uTorrent.exe
+File utweb_installer.exe
+File v1.8.3.zip
+File vcredist_x64.exe
+File vcredist_x86.exe
+File Vic2LSetupE.exe
+File Victoria 2 Heart of Darkness v3.04.zip
+File Victoria 2.torrent
+File Victoria 2_W_StahL 2.0.1.rar
+File victoria-2-repack-ot-fenixx (1).torrent
+File victoria-2-repack-ot-fenixx (2).torrent
+File victoria-2-repack-ot-fenixx (3).torrent
+File victoria-2-repack-ot-fenixx.torrent
+File Victoria-3-by-Igruha.torrent
+File vic_pravila (1).docx
+File vic_pravila.docx
+File VSCodeUserSetup-x64-1.63.2.exe
+File vyrazitelnyj-javascript-code.zip
+File winrar-x64-611ru.exe
+File Workbook (with key).pdf
+File zima-132.jpg
+File zima-v6.960x540.jpg
+File [IOP]_become_someone.torrent
+File [IOP]_Defending _Lydia_Collier.torrent
+File [IOP]_Destroyer (1).torrent
+File [IOP]_Destroyer.torrent
+File [IOP]_Eternum.torrent
+File [IOP]_Friends_of_Mine.torrent
+File [IOP]_Gunpowder_Cocktail.torrent
+File [IOP]_Hentai_High_School.torrent
+File [IOP]_Imaginarium.torrent
+File [IOP]_Love_and_Sex.torrent
+File [IOP]_Our_Red_String.torrent
+File [IOP]_Pale_Carnations.torrent
+File [IOP]_To_the_Fullest.torrent
+File [IOP]_В_СССР_секса_нет (1).torrent
+File [IOP]_В_СССР_секса_нет.torrent
+File европа кряк.zip
+File Легкий способ выучить Java ( PDFDrive ).pdf
+File Программирование на Python (в 2-х томах) том 1 by Марк Лутц (z-lib.org).pdf
+File Сиерра-К.-Бейтс-Б.-Изучаем-Java-2012.pdf
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 53297
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 09, 2022 6:48:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 09, 2022 6:48:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 104
+Nov 09, 2022 6:48:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 104
+]]></system-err>
+  </testcase>
+  <testcase name="DynamicPropertiesTest" classname="TestCases.TC_0010_DynamicProperties" time="17.023">
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 57828
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 09, 2022 6:49:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 09, 2022 6:49:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 104
+Nov 09, 2022 6:49:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 107 of 104
 ]]></system-err>
   </testcase>

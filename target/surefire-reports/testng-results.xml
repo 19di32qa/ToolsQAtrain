@@ -1,23 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="9" total="24" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-07T19:27:00 CAST" name="All Test Suite" finished-at="2022-11-07T19:27:42 CAST" duration-ms="41259">
+  <suite started-at="2022-11-09T18:46:09 CAST" name="All Test Suite" finished-at="2022-11-09T18:49:32 CAST" duration-ms="203412">
     <groups>
     </groups>
-    <test started-at="2022-11-07T19:27:00 CAST" name="C:/Users/Dima/Desktop/ToolsQaProject" finished-at="2022-11-07T19:27:42 CAST" duration-ms="41259">
+    <test started-at="2022-11-09T18:46:09 CAST" name="C:/Users/Dima/Desktop/ToolsQaProject" finished-at="2022-11-09T18:49:32 CAST" duration-ms="203412">
+      <class name="TestCases.TC_0006_Links">
+        <test-method signature="LinksTest()[pri:0, instance:TestCases.TC_0006_Links@78383390]" started-at="2022-11-09T18:48:20 CAST" name="LinksTest" finished-at="2022-11-09T18:48:39 CAST" duration-ms="19341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinksTest -->
+      </class> <!-- TestCases.TC_0006_Links -->
+      <class name="TestCases.TC_0004_WebTable">
+        <test-method signature="sortTest()[pri:0, instance:TestCases.TC_0004_WebTable@46dffdc3]" started-at="2022-11-09T18:47:23 CAST" name="sortTest" finished-at="2022-11-09T18:47:38 CAST" duration-ms="14560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortTest -->
+        <test-method signature="searchTest()[pri:0, instance:TestCases.TC_0004_WebTable@46dffdc3]" started-at="2022-11-09T18:47:38 CAST" name="searchTest" finished-at="2022-11-09T18:47:51 CAST" duration-ms="12880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="addNewUserTest()[pri:0, instance:TestCases.TC_0004_WebTable@46dffdc3]" started-at="2022-11-09T18:47:51 CAST" name="addNewUserTest" finished-at="2022-11-09T18:48:05 CAST" duration-ms="14145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUserTest -->
+      </class> <!-- TestCases.TC_0004_WebTable -->
+      <class name="TestCases.TC_0009_UploadAndDownload">
+        <test-method signature="UploadAndDownloadTest()[pri:0, instance:TestCases.TC_0009_UploadAndDownload@db57326]" started-at="2022-11-09T18:48:58 CAST" name="UploadAndDownloadTest" finished-at="2022-11-09T18:49:15 CAST" duration-ms="16985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadAndDownloadTest -->
+      </class> <!-- TestCases.TC_0009_UploadAndDownload -->
+      <class name="TestCases.TC_0003_RadioButtons">
+        <test-method signature="radioButtonsTest(java.lang.Object)[pri:0, instance:TestCases.TC_0003_RadioButtons@525575]" started-at="2022-11-09T18:46:38 CAST" name="radioButtonsTest" data-provider="buttons" finished-at="2022-11-09T18:46:51 CAST" duration-ms="12558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioButtonsTest -->
+        <test-method signature="radioButtonsTest(java.lang.Object)[pri:0, instance:TestCases.TC_0003_RadioButtons@525575]" started-at="2022-11-09T18:46:51 CAST" name="radioButtonsTest" data-provider="buttons" finished-at="2022-11-09T18:47:09 CAST" duration-ms="17940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Impressive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioButtonsTest -->
+        <test-method signature="radioButtonsTest(java.lang.Object)[pri:0, instance:TestCases.TC_0003_RadioButtons@525575]" started-at="2022-11-09T18:47:09 CAST" name="radioButtonsTest" data-provider="buttons" finished-at="2022-11-09T18:47:23 CAST" duration-ms="14715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioButtonsTest -->
+      </class> <!-- TestCases.TC_0003_RadioButtons -->
+      <class name="TestCases.TC_0010_DynamicProperties">
+        <test-method signature="DynamicPropertiesTest()[pri:0, instance:TestCases.TC_0010_DynamicProperties@34a875b3]" started-at="2022-11-09T18:49:15 CAST" name="DynamicPropertiesTest" finished-at="2022-11-09T18:49:32 CAST" duration-ms="17023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DynamicPropertiesTest -->
+      </class> <!-- TestCases.TC_0010_DynamicProperties -->
       <class name="TestCases.TC_0002_Checkbox">
-        <test-method signature="CheckBoxTest()[pri:0, instance:TestCases.TC_0002_Checkbox@6bca7e0d]" started-at="2022-11-07T19:27:29 CAST" name="CheckBoxTest" finished-at="2022-11-07T19:27:42 CAST" duration-ms="12859" status="PASS">
+        <test-method signature="CheckBoxTest()[pri:0, instance:TestCases.TC_0002_Checkbox@74bada02]" started-at="2022-11-09T18:46:24 CAST" name="CheckBoxTest" finished-at="2022-11-09T18:46:38 CAST" duration-ms="13593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckBoxTest -->
       </class> <!-- TestCases.TC_0002_Checkbox -->
+      <class name="TestCases.TC_0005_Buttons">
+        <test-method signature="ButtonsTest()[pri:0, instance:TestCases.TC_0005_Buttons@5a709816]" started-at="2022-11-09T18:48:05 CAST" name="ButtonsTest" finished-at="2022-11-09T18:48:20 CAST" duration-ms="14761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonsTest -->
+      </class> <!-- TestCases.TC_0005_Buttons -->
+      <class name="TestCases.TC_0007_Links_Api">
+        <test-method signature="ApiCallsTest(java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:TestCases.TC_0007_Links_Api@6ad3381f]" started-at="2022-11-09T18:48:39 CAST" name="ApiCallsTest" data-provider="links" finished-at="2022-11-09T18:48:42 CAST" duration-ms="3436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/created]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HTTP/1.1 201 Created]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiCallsTest -->
+        <test-method signature="ApiCallsTest(java.lang.Object, java.lang.Object, java.lang.Object)[pri:0, instance:TestCases.TC_0007_Links_Api@6ad3381f]" started-at="2022-11-09T18:48:42 CAST" name="ApiCallsTest" data-provider="links" finished-at="2022-11-09T18:48:43 CAST" duration-ms="841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/no-content]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HTTP/1.1 204 No Content]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[204]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiCallsTest -->
+      </class> <!-- TestCases.TC_0007_Links_Api -->
+      <class name="TestCases.TC_0008_BrokenLinks">
+        <test-method signature="BrokenLinksTest()[pri:0, instance:TestCases.TC_0008_BrokenLinks@53dbe163]" started-at="2022-11-09T18:48:43 CAST" name="BrokenLinksTest" finished-at="2022-11-09T18:48:58 CAST" duration-ms="14784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrokenLinksTest -->
+      </class> <!-- TestCases.TC_0008_BrokenLinks -->
       <class name="TestCases.TC_0001_TextBox">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.TC_0001_TextBox@7f132176]" started-at="2022-11-07T19:27:00 CAST" name="setUp" finished-at="2022-11-07T19:27:00 CAST" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.TC_0001_TextBox@16414e40]" started-at="2022-11-09T18:46:09 CAST" name="setUp" finished-at="2022-11-09T18:46:09 CAST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TextBoxTest()[pri:0, instance:TestCases.TC_0001_TextBox@7f132176]" started-at="2022-11-07T19:27:01 CAST" name="TextBoxTest" finished-at="2022-11-07T19:27:29 CAST" duration-ms="28331" status="PASS">
+        <test-method signature="TextBoxTest()[pri:0, instance:TestCases.TC_0001_TextBox@16414e40]" started-at="2022-11-09T18:46:09 CAST" name="TextBoxTest" finished-at="2022-11-09T18:46:24 CAST" duration-ms="15803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TextBoxTest -->
