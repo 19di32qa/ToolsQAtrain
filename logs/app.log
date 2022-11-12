@@ -310,6 +310,7 @@ java.net.SocketException: Connection reset
 2022-11-10 17:14:56,151 INFO P.BaseClass [main] Test is started
 2022-11-10 17:22:27,221 INFO P.BaseClass [main] Test is started
 2022-11-10 17:23:11,800 INFO P.BaseClass [TestNG-test=C:/Users/Dima/Desktop/ToolsQaProject-1]  
+<<<<<<< HEAD
 2022-11-12 13:21:58,929 INFO P.BaseClass [main] Test is started
 2022-11-12 13:22:34,198 INFO P.BaseClass [main] Test is started
 2022-11-12 13:28:07,772 INFO P.BaseClass [main] Test is started
@@ -329,3 +330,5 @@ java.net.SocketException: Connection reset
 2022-11-12 14:18:47,200 INFO P.BaseClass [main] Test is started
 2022-11-12 14:27:25,608 INFO P.BaseClass [main] Test is started
 2022-11-12 14:28:08,273 INFO P.BaseClass [main] Test is started
+=======
+>>>>>>> 5bd1233438c555a5b3df88e1a0d46d9f10706258
