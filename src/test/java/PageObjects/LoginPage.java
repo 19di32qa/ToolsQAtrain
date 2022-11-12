@@ -24,4 +24,7 @@ public class LoginPage {
     public WebElement getLoginBtn() {
         return driver.findElement(By.id("login"));
     }
+    public WebElement gotoStoreBtn() {
+        return driver.findElement(By.id("gotoStore"));
+    }
 }
